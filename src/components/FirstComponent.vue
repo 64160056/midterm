@@ -1,4 +1,4 @@
 <script setup lang="ts"></script>
 <template>
-  <div>First Component</div>
+  <v-card title="First Component" width="250px" height="150px"></v-card>
 </template>
