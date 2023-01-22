@@ -20,9 +20,13 @@ const products = ref(
     </v-col>
     <v-col>
       <v-table>
-        <th>id</th>
-        <th>name</th>
-        <th>price</th>
+        <thead>
+          <tr>
+            <th class="text-left">id</th>
+            <th class="text-left">name</th>
+            <th class="text-left">price</th>
+          </tr>
+        </thead>
       </v-table>
 
       <v-contianer>
