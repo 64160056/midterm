@@ -27,6 +27,11 @@ const products = ref(
             <th class="text-left">price</th>
           </tr>
         </thead>
+        <tbody>
+          <td colspan="4">
+            <p class="text-center font-weight-bold">NO Data</p>
+          </td>
+        </tbody>
       </v-table>
 
       <v-contianer>
