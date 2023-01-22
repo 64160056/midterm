@@ -23,9 +23,11 @@ const products = ref(
         <th>id</th>
         <th>name</th>
         <th>price</th>
-      </v-table> 
+      </v-table>
+
+      <v-contianer>
+        <p class="font-weight-bold text-h2">Sum:</p>
+      </v-contianer>
     </v-col>
   </v-row>
-  <div>
-  </div>
 </template>
