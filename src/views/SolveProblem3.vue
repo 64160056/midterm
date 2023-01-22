@@ -12,7 +12,20 @@ const products = ref(
 );
 </script>
 <template>
+  <v-row>
+    <v-col>
+      <v-card class="v-col-4 ma-5">
+        <v-card-title></v-card-title>
+      </v-card>
+    </v-col>
+    <v-col>
+      <v-table>
+        <th>id</th>
+        <th>name</th>
+        <th>price</th>
+      </v-table> 
+    </v-col>
+  </v-row>
   <div>
-    {{ products }}
   </div>
 </template>
